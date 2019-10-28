@@ -1,0 +1,9 @@
+{
+  "extends": "../tsconfig",
+  "compilerOptions": {
+    "noImplicitAny": false
+  },
+  "files": [
+    "../types/index.d.ts"
+  ]
+}

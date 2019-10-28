@@ -1,0 +1,29 @@
+{
+  "name": "storybook-html-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@storybook/addon-docs": "^5.2.5",
+    "@storybook/addon-knobs": "^5.2.5",
+    "@storybook/addon-notes": "^5.2.5",
+    "@storybook/html": "^5.2.5",
+    "@storybook/preset-typescript": "^1.1.0",
+    "@types/node": "^12.11.7",
+    "@types/webpack": "^4.39.5",
+    "@types/webpack-env": "^1.14.1",
+    "babel-loader": "^8.0.6",
+    "react-docgen-typescript-loader": "^3.3.0",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.6.4"
+  }
+}
